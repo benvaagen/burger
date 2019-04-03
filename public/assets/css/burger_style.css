@@ -1,28 +1,32 @@
-
-.body {
+body {
   background-color: dimgrey;
+
 }
 
 .jumbotron {
-    background-image: url("../img/burgerJumbotron.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-color: #000000;
-    color: #ffffff;
-    margin-top: 3%;
-  }
-  #newburger {
-    color: #5c5c5c;
-  }
-  #leftside {
-    background-color: #5c5c5c;
-    color: white;
-    text-align: center;
-    font-size: 1.3em;
-  }
-  #rightside {
-    background-color: #e49322;
-    color: white;
-    text-align: center;
-    font-size: 1.3em;
-  }
+  background-image: url("../img/burgerJumbotron.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #000000;
+  color: #ffffff;
+  margin-top: 3%;
+  font-family: 'Arimo', sans-serif;
+}
+
+#newburger {
+  color: #5c5c5c;
+}
+
+#leftside {
+  background-color: crimson;
+  color: white;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+#rightside {
+  background-color: #e49322;
+  color: white;
+  text-align: center;
+  font-size: 1.3em;
+}
